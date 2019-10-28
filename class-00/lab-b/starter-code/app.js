@@ -192,6 +192,6 @@ console.log(joe.scopeArrow());
 // 1. What is "this" when joe.scope() is invoked?
 // The this is the Joe instance of the Student object.
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+// The this is the parent window.
 // 3. Explain why "this" is different when an arrow function is used.
-//
+//  Arrow functions do not rebind the value of this.  The system will bubble up to the parent window.
